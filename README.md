@@ -1,3 +1,9 @@
+
+[![Build Status](https://travis-ci.org/bytekast/onprem-common-utils.svg)](https://travis-ci.org/bytekast/onprem-common-utils)
+
+[![Coverage Status](https://coveralls.io/repos/bytekast/onprem-common-utils/badge.svg?branch=feature-num2string&service=github)](https://coveralls.io/github/bytekast/onprem-common-utils?branch=feature-num2string)
+
+
 Number to String
 ================
 
