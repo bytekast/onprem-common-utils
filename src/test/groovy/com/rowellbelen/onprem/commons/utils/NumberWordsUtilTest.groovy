@@ -35,5 +35,16 @@ class NumberWordsUtilTest {
         numberUtil.convertToWords(1234567))
     assertEquals("twelve million, three hundred forty-five thousand, six hundred seventy-eight",
         numberUtil.convertToWords(12345678))
+
+    assertEquals("ten", numberUtil.convertToWords(10))
+    assertEquals("one hundred", numberUtil.convertToWords(100))
+    assertEquals("one thousand", numberUtil.convertToWords(1000))
+    assertEquals("ten thousand", numberUtil.convertToWords(10000))
+    assertEquals("one hundred thousand", numberUtil.convertToWords(100000))
+    assertEquals("one million", numberUtil.convertToWords(1000000))
+    assertEquals("ten million", numberUtil.convertToWords(10000000))
+    assertEquals("one hundred million", numberUtil.convertToWords(100000000))
+    assertEquals("one billion", numberUtil.convertToWords(1000000000))
+    assertEquals("minus two billion, one hundred forty-seven million, four hundred eighty-three thousand, six hundred forty-eight", numberUtil.convertToWords(Integer.MIN_VALUE))
   }
 }
